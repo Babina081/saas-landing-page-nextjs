@@ -22,7 +22,7 @@ const Header = () => {
         </div>
       </div>
       <div className="py-5">
-        <div className="container">
+        <div className="container mx-auto">
           <div className="flex items-center justify-between">
             <Image src={Logo} alt="Saas Logo" height={40} width={40} />
             <Image
@@ -32,6 +32,7 @@ const Header = () => {
               width={40}
               className="h-5 w-5 md:hidden"
             />
+            {/* <MenuIcon className="h-5 w-5 md:hidden" /> */}
             <nav className="hidden md:flex gap-6 text-black/60 items-center">
               <a href="#">About</a>
               <a href="#">Features</a>
